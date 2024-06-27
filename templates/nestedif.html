@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+   <center>
+    <h3>jinja_operations</h3>
+    <h1>We are performing some operations using jinja operational tags</h1>
+    {% if age < 18 %}
+        {% if age < 10 %}
+            <h1>{{name}} is a Child </h1>
+        {% else %}
+        <h1>{{name}} is Teeneger</h1>
+        {% endif %}
+    {% else %}
+        {% if age < 30 %}
+        <h1>{{name}} is Adult</h1>
+        {% else %}
+        <h1>{{name}} is Old person</h1>
+        {% endif %}
+    {% endif %}
+   </center>
+</body>
+</html>

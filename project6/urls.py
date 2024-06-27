@@ -21,4 +21,7 @@ from app.views import *
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('jinja_print/',jinja_print,name='jinja_print'),
+    path('jinja_operations/',jinja_operations,name='jinja_operations'),
+    path('nestedif/',nestedif,name='nestedif'),
+    path('forloop/',forloop,name='forloop'),
 ]
